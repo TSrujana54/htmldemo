@@ -1,0 +1,34 @@
+CSS:
+    External CSS :   color: redstyle.css, <link rel="stylesheet" src="style.css" />
+    Internal CSS :  <style>
+                    </style>
+    Inline CSS : 
+    <h1>TEXT</h1>
+    <a href="" style="color:red">Google</a>
+<div>
+<h2 class="headers">Header</h2>
+<h1 class="headers" id="headerId">Header</h2>
+<h3 class="headers">Header</h2>
+</div>
+Selectors:
+    h2,h3,h1{
+        color : red;
+    }
+div.headers{
+    color:red;
+}
+div#headerId{
+    color:blue;
+}
+*
+    {
+        margin:0px;
+        font-family:"Arial"
+    }
+
+
+
+
+
+
+
